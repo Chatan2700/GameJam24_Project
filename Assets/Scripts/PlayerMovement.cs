@@ -8,15 +8,16 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 movement; // Input
-    //private Animator animator;
+    [SerializeField] private Animator animator;
     private float originalScale = 0.75f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        //animator = GetComponent<Animator>();
+        animator = animator.GetComponent<Animator>();
 
         moveSpeed = walkSpeed;
+        
     }
 
     // Update is called once per frame
@@ -57,14 +58,16 @@ public class PlayerMovement : MonoBehaviour
 
         // Control animation states
 
-        //if (movement.x != 0)
-        //{
-        //    animator.SetBool("isWalking", true);
-        //}
-        //else
-        //{
-        //    animator.SetBool("isWalking", false);
-        //}
+        if (movement.x != 0)
+        {
+            animator.SetBool("isWalking", true);
+            Debug.Log("Is walking true");
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+            Debug.Log("Is walking false");
+        }
 
     }
 

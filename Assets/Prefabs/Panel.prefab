@@ -86,11 +86,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2274130236583197761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f0af192d442cd34bace40d97eb2beff, type: 3}
+  m_Script: {fileID: 11500000, guid: b11f45bbe1eca7e4b917eac6fc30d0fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1006819094211356664}
-  lines: []
+  lines:
+  - 
   textspeed: 0
 --- !u!1 &2696953089006981588
 GameObject:

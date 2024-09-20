@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Dormitorio_1.unity
-    guid: c1663b842db117841b94305fd2db5ee6
+    path: Assets/Scenes/House_Scene.unity
+    guid: 7291d1b6ae957cf4193edcb37fdfc0d5
   - enabled: 1
-    path: Assets/Scenes/Corridor_2.unity
-    guid: 46a2b0bf0e646be4997c0244f6e94f05
+    path: Assets/Scenes/BedRoomPuzzle.unity
+    guid: d2e8b2415cfe2ce48a57d0507d065ae4
+  - enabled: 1
+    path: Assets/Scenes/LivingRoomPuzzle.unity
+    guid: 18b9333380fb08744b797c4e825c22c7
+  - enabled: 1
+    path: Assets/Scenes/OfficePuzzle.unity
+    guid: 91d4738e83c034145bda221d53579d6a
   m_configObjects: {}
